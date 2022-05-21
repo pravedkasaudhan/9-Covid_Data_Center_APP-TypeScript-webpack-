@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    padding:50px ;
+    background: url("https://ihpi.umich.edu/sites/default/files/styles/hero_slide/public/2020-03/GettyImages-1202969008-yellow_0.jpg?itok=YhuJvnYE");
+}
+h2{
+    text-align: center;
+    display: none;
+    margin: 10px auto;
+}
+#options{
+    width:300px;
+    height: 50px;
+    border-radius: 50px;
+    padding:0px 50px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+#data{
+    width:100%;
+    margin:30px 0px;
+}
+.headings{
+    /* margin-right: 150px; */
+    /* padding:0px 80px; */
+    background-color: rgb(90, 235, 133);
+    color:rgb(32, 8, 139);
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    padding:0px 0px
+    /* width:400px; */
+}
+.content{
+    /* padding:0px 100px; */
+    margin-right: 150px;
+    font-size: 1.5rem;
+    text-align:end;
+    width:200px;  
+}
+.country{
+    text-align: left;
+}
+
+canvas{
+    height: 70vh;
+    height: 400px;
+    /* background-color: white; */
+    display: none;
+    padding:10px;
+    border-radius: 30px;
+}
